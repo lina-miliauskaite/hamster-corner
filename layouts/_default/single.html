@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<section
+  class="hero-section"
+  style="background-image: url('{{ .Page.Params.hero_image }}')"
+>
+  <h1>{{ .Page.Params.hero_title }}</h1>
+  <p>{{ .Page.Params.hero_tagline }}</p>
+</section>
+
+<section>
+  <div class="container">
+    <article>
+      {{ .Content }}
+
+      {{ range.Pages }}
+      <li>
+        <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+      </li>
+      {{ end }}
+    </article>
+    r
+  </div>
+</section>
+{{ end }}

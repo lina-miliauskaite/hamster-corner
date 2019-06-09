@@ -1,0 +1,19 @@
+{
+  "name": "hamster-corner-js-css",
+  "version": "0.0.0",
+  "description": "Hamster corner CSS, JS assets",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel watch scss/styles.scss -d ../static/dist/"
+  },
+  "author": "Žanas Stundys",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "parcel-bundler": "^1.12.3"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0",
+    "sass": "^1.21.0"
+  }
+}

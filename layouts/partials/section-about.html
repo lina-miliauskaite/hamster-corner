@@ -1,0 +1,16 @@
+
+<section class="content-section content-section--alt">
+        <div class="container">
+        <h2 class="section-title">Apie mane</h2>
+        <article>
+            {{ .Content }}
+
+            {{ range.Pages }}
+            <li>
+              <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+            </li>
+            {{ end }}
+          </article>
+          r
+        </div>
+      </section>
