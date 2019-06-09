@@ -17,8 +17,6 @@
         {{ $currentPage := . }}
 
         {{ range .Site.Menus.main.ByName.ByWeight }}
-
-
           <li class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active {{end}}">
             <a class="nav-link" href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
           </li>
@@ -27,3 +25,5 @@
     {{ end }}
   </div>
 </nav>
+
+

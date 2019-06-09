@@ -1,0 +1,45 @@
+{{ define "main" }}
+{{ partial "breadcrumbs" . }}
+
+<section class="content-section ">
+	<article class="container" style="max-width: 600px;">
+
+		<h2 class="section-title">
+			{{ .Title }}
+		</h2>
+
+		<div class="article-image mb-3">
+			<img src="/blogas/{{ .Params.teaser_image }}" alt="{{ .Title }}">
+			<time datetime="{{ .Date.Format "2006-01-02"}}">
+				<span class="day">{{ .Date.Format "02"}}</span>
+				{{ .Date.Format "Jan"}}
+			</time>
+		</div>
+
+		<main>
+			<div class="article-content">
+				{{ .Content }}
+				
+				{{ if .Params.useful_links }}
+				<br />
+					<h4>Naudingos nuorodos</h4>
+				   {{ range .Params.useful_links }}
+					 <a href="{{ . }}" target="_blank">{{ . }}</a><br/>
+				   {{ end }}
+				{{ end }}
+			</div>
+
+			{{ if .Params.tags }}
+				<div class="mt-3">
+					{{ range .Params.tags }}
+						<a href="/blogas?kategorija={{ . }}" class="article-tag">
+							{{ . }}
+						</a>
+					{{ end }}
+				</div>
+			{{ end }}
+
+		</main>
+	</article>
+</section>
+{{ end }}

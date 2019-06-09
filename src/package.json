@@ -4,16 +4,20 @@
   "description": "Hamster corner CSS, JS assets",
   "main": "index.js",
   "scripts": {
-    "start": "parcel watch scss/styles.scss -d ../static/dist/"
+    "start:css": "parcel watch scss/styles.scss -d ../static/dist/ --public-url /dist",
+    "start:js": "parcel watch js/index.js -d ../static/dist/ --public-url /dist"
   },
   "author": "Žanas Stundys",
   "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "parcel-bundler": "^1.12.3"
+    "parcel-bundler": "^1.12.3",
+    "scrollmagic": "^2.0.7"
   },
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.9.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
     "sass": "^1.21.0"
   }
 }

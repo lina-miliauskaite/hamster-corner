@@ -2,10 +2,10 @@
   <div class="container">
     <h2 class="section-title">Turi klausimų ar idėjų?</h2>
     <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum ipsum, placeat magnam quaerat mollitia harum totam impedit quia. Animi, suscipit. Possimus vero enim expedita recusandae exercitationem incidunt ducimus at laudantium.
+        Jeigu turite klausimų ar idėjų naujam straipsniui, galite pranešti nurodytu el. paštu:
     </p>
     <article>
-      <a href="mailto:{{.email}}">{{ partial "fontawesome" (dict "icon" "envelope-open-text" "class" "mr-2") }}{{ .email }}</a>
+      <a href="mailto:{{.Site.Params.social_email}}">{{ partial "fontawesome" (dict "icon" "solid/envelope-open-text" "class" "mr-2") }}{{.Site.Params.social_email}}</a>
     </article>
   </div>
 </section>

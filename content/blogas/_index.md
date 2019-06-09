@@ -1,4 +1,3 @@
----
----
-
-Blogas index
++++
+title = "Blogas"
++++

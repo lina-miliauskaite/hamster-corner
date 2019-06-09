@@ -1,25 +1,24 @@
 {{ define "main" }}
+{{ partial "breadcrumbs" . }}
 
-<section
-  class="hero-section"
-  style="background-image: url('{{ .Page.Params.hero_image }}')"
->
-  <h1>{{ .Page.Params.hero_title }}</h1>
-  <p>{{ .Page.Params.hero_tagline }}</p>
-</section>
-
-<section>
+<section class="content-section">
+  <h2 class="section-title">
+    {{ .Title }}
+  </h2>
   <div class="container">
-    <article>
-      {{ .Content }}
+    <div class="row">
+      <div class="col">
+		{{ .Content }}
+      	</div>
 
-      {{ range.Pages }}
-      <li>
-        <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
-      </li>
+      {{ if .Params.image }}
+        <div class="col-4 offset-1">
+          <img src="{{ .Params.image }}" alt="{{ .Params.image_alt }}">
+        </div>
       {{ end }}
+    </div>
+    <article>
     </article>
-    r
   </div>
 </section>
 {{ end }}

@@ -8,23 +8,9 @@
   <p>{{ .Page.Params.hero_tagline }}</p>
 </section>
 
-<section class="content-section">
-  <div class="container">
-    <h2 class="section-title">Blogas</h2>
-    <article>
-      {{ .Content }}
+{{ partial "section-blog" . }}
+{{ partial "section-about" . }}
 
-      {{ range.Pages }}
-      <li>
-        <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
-      </li>
-      {{ end }}
-    </article>
-    r
-  </div>
-</section>
-
-{{ partial "section-about" }}
-{{ partial "section-contact" (dict "email" .Site.Params.social_email) }}
+{{ partial "section-contact" . }}
 
 {{ end }}
