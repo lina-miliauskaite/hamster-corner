@@ -1,0 +1,30 @@
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h5>{{ .Site.Title }}</h5>
+                {{ if .Site.Params.copyright_message }}
+                    <p class="m-0">{{ .Site.Params.copyright_message }}</p>
+                {{ end }}
+            </div>
+            <div class="col col-auto text-right">
+                <nav class="mb-3">
+					<a class="link ml-2 text-uppercase" href="/kategorijos" title="Kategorijos">Kategorijos</a>
+                    {{- if .Site.Menus.main -}}
+                        {{- range .Site.Menus.main.ByName.ByWeight -}}
+                            <a class="link ml-2 text-uppercase" href="{{ .URL }}" title="{{ .Name }}">{{- .Name -}}</a>
+                        {{- end -}}
+					{{- end -}}
+
+                </nav>
+                <nav>
+                    {{ if .Site.Params.social_facebook }}
+                        <a target="_blank"  href="{{ .Site.Params.social_facebook }}">
+                            {{ partial "fontawesome" (dict "icon" "brand/facebook-f") }}
+                        </a>
+                   {{ end }}
+                </nav>
+            </div>
+        </div>
+    </div>
+</footer>

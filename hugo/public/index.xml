@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Žiurkėnų kampelis</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Žiurkėnų kampelis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>lt</language>
+    <lastBuildDate>Sat, 01 Jun 2019 12:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Žiurkėnų narveliai</title>
+      <link>http://example.org/blogas/ziurkenu-narveliai/</link>
+      <pubDate>Sat, 01 Jun 2019 12:00:00 +0300</pubDate>
+      
+      <guid>http://example.org/blogas/ziurkenu-narveliai/</guid>
+      <description>Narvelių žiurkėnams šiomis dienomis galima rasti pačių įvairiausių. Metalinių, plastikinių, ryškiaspalvių, su priedais ar netgi kelių aukštų. Tiesiog žiurkėnų rojus! Bet ar tikrai? Štai punktai į kuriuos reikėtų atkreipti dėmesį, kai renkiesi naujus namus savo augintiniui.
+Narvelio dydis Minimalūs narvelio dydžio reikalavimai gali skirtis priklausomai nuo šalies:
+ Anot &amp;ldquo;Amerikos žiaurumo prieš gyvūnus bendruomenės&amp;rdquo; (ASPCA) minimalus žiurkėnui auginti skirto narvelio grindų plotas turėtų siekti vos 200 kvadratinių colių (25x50cm). Pagal &amp;ldquo;Humaniškos Jungtinių Valstijų bendruomenės&amp;rdquo;(HSUS), šis minimumas yra šiek tiek didesnis – 288 kvadratiniai coliai (30x61cm).</description>
+    </item>
+    
+    <item>
+      <title>Roborovskio žiurkėnai</title>
+      <link>http://example.org/blogas/roborovskio-ziurkenai/</link>
+      <pubDate>Sat, 18 May 2019 12:00:00 +0300</pubDate>
+      
+      <guid>http://example.org/blogas/roborovskio-ziurkenai/</guid>
+      <description>Vienas mažiausių ir greičiausių iš naminių žiurkėnų yra Roborovskio žiurkėnas, kartais vadinami tiesiog Robo žiurkėnais. Šiuos mažus ir greitus išdykėlius Kinijoje pastebėjo V. Roborovskis. Tuo metu šie mažyliai dar gyveno dykumose ir savo urvelius kasėsi iki 2 metrų gylyje po smėliu, o per vieną vakarą galėdavo nubėgti iki 160 kilometrų.
+Po beveik 80 metų nuo Robo žiurkėnų atradimo, jie buvo pastebėti Rusijos zoologijos soduose. Galiausiai iš Rusijos žiurkėnai paplito po visą Europą.</description>
+    </item>
+    
+    <item>
+      <title>„Žiūrkėnų kampelis“ pasisveikinimas</title>
+      <link>http://example.org/blogas/ziurkenu-kampelis-pasisveikinimas/</link>
+      <pubDate>Fri, 03 May 2019 12:00:00 +0300</pubDate>
+      
+      <guid>http://example.org/blogas/ziurkenu-kampelis-pasisveikinimas/</guid>
+      <description>Sveiki visi atvykę į “Žiurkėnų kampelį”. Vietą kur gali rasti visą reikiamą informaciją apie žiurkėnus, jų auginimą ir priežiūrą. Jei planuoji įsigyti naują augintinį arba pradžiuginti jau turimą pūkuotąjį draugą, esi tinkamoje vietoje.
+Susipažinkime Mano vardas Lina ir aš myliu žiurkėnus, manau, ne ką mažiau nei kiekvienas rūpestingas žiurkėnų augintojas. Šiuo metu dirbu internetinių svetainių dizainere, laisvalaikiu auginu gėles po savo buto langu.
+Esu auginusi vieną Džiungarijos žiurkėną vardu Pinkis.</description>
+    </item>
+    
+    <item>
+      <title>Roborovskiai</title>
+      <link>http://example.org/kategorijos/roborovskiai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/kategorijos/roborovskiai/</guid>
+      <description>labas</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<section class="content-section content-section--alt">
+	<div class="container">
+		{{ $pages := where .Parent.Pages.ByDate.Reverse "Section" "blogas" }}
+		{{ $pages := where $pages "Title" "!=" .Title }}
+		{{ $pages := $pages | first 3 }}
+	
+		<h2 class="section-title">Dar galite paskaityti...</h2>
+	
+		<div class="row justify-content-center">
+			{{ range $pages }}
+			<div class="col-4">
+				{{ partial "article-card" . }}
+			</div>
+			{{ end }}
+		</div>
+	</div>
+
+</section>

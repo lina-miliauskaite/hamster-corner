@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Žiurkėnų rūšys on Žiurkėnų kampelis</title>
+    <link>http://example.org/tags/%C5%BEiurk%C4%97n%C5%B3-r%C5%AB%C5%A1ys/</link>
+    <description>Recent content in Žiurkėnų rūšys on Žiurkėnų kampelis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>lt</language>
+    <lastBuildDate>Sat, 18 May 2019 12:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="http://example.org/tags/%C5%BEiurk%C4%97n%C5%B3-r%C5%AB%C5%A1ys/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Roborovskio žiurkėnai</title>
+      <link>http://example.org/blogas/roborovskio-ziurkenai/</link>
+      <pubDate>Sat, 18 May 2019 12:00:00 +0300</pubDate>
+      
+      <guid>http://example.org/blogas/roborovskio-ziurkenai/</guid>
+      <description>Vienas mažiausių ir greičiausių iš naminių žiurkėnų yra Roborovskio žiurkėnas, kartais vadinami tiesiog Robo žiurkėnais. Šiuos mažus ir greitus išdykėlius Kinijoje pastebėjo V. Roborovskis. Tuo metu šie mažyliai dar gyveno dykumose ir savo urvelius kasėsi iki 2 metrų gylyje po smėliu, o per vieną vakarą galėdavo nubėgti iki 160 kilometrų.
+Po beveik 80 metų nuo Robo žiurkėnų atradimo, jie buvo pastebėti Rusijos zoologijos soduose. Galiausiai iš Rusijos žiurkėnai paplito po visą Europą.</description>
+    </item>
+    
+  </channel>
+</rss>

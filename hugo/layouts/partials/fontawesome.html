@@ -1,0 +1,11 @@
+<span class="svg-icon {{ .class }}" >
+    {{- $fname:=print "icons/fontawesome/" .icon ".svg" -}}
+    {{- $fill_path:="<path" -}}
+    {{- $fill_replace:="<path fill=\"currentColor\"" -}}
+    {{- $size_path:="viewBox" -}}
+    {{- $size_replace:="width=\"16\" height=\"16\" viewBox" -}}
+
+    {{- $replaced_fill := replace (readFile $fname) $fill_path $fill_replace }}
+    {{- $replaced_fill_size := replace ($replaced_fill) $size_path $size_replace }}
+    {{-  $replaced_fill_size | safeHTML -}}
+</span>

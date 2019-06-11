@@ -1,0 +1,41 @@
+baseURL = "http://example.org/"
+title = "Žiurkėnų kampelis"
+
+dataDir = "data"
+enableEmoji = true
+
+DefaultContentLanguage = "lt"
+languageCode = "lt"
+[languages]
+	[languages.lt]
+		languageName = "Lietuvių"
+		weight = 1
+
+[taxonomies]
+  kategorijos = "kategorijos"
+
+[params]
+    image_logo = "img/logo.png"
+    copyright_message = "© 2019 Visos teisės saugomos"
+    social_email = 'ziurkenukampelis@gmail.com'
+    social_facebook = "https://www.facebook.com/ziurkenukampelis/"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Pagrindinis"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "blogas"
+    name = "Blogas"
+    url = "/blogas/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "apie"
+    name = "Apie mane"
+    url = "/apie/"
+    weight = 3

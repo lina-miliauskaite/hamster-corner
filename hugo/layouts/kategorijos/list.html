@@ -1,0 +1,17 @@
+{{ define "main" }}
+{{ partial "breadcrumbs" . }}
+<section class="content-section">
+	<h2 class="section-title">
+		{{ .Title }}
+	</h2>
+	<div class="container">
+		<div class="row justify-content-center">
+			{{ range .Pages }}
+			<div class="col-4">
+				{{ partial "article-card" . }}
+			</div>
+			{{ end }}
+		</div>
+	</div>
+</section>
+{{ end }}

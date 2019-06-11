@@ -1,0 +1,8 @@
+
+{{ if .Params.kategorijos }}
+	{{ range .Params.kategorijos }}
+		<a href="/kategorijos/{{ anchorize . }}" class="article-tag">
+			{{ . }}
+		</a>
+	{{ end }}
+{{ end }}

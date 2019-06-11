@@ -1,0 +1,122 @@
+.article {
+	padding: $spacer * 1.5;
+	margin-bottom: $spacer * 1.5;
+	border-radius: $border-radius;
+	background: #fafafa;
+}
+
+.article-image {
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	display: block;
+	border-radius: $border-radius;
+	overflow: hidden;
+	height: 100%;
+	min-height: 190px;
+
+	&, &:hover, &:focus {
+	  color: white;
+	  text-decoration: none;
+	}
+	
+	time {
+		position: absolute;
+		top: 0;
+		left: 0;
+		text-align: center;
+        padding: $spacer / 2 $spacer;
+		border-radius: $border-radius;
+		margin: $spacer;
+		background: rgba(#000, 0.5);
+		line-height: 1.15;
+	}
+
+	.day {
+		display: block;
+		font-size: 1.5rem;
+	}
+}
+
+.article-content {
+	h1,h2,h3,h4,h5,h6 {
+		color: $primary;
+	}
+
+	a {
+		color: $tertiary;
+
+		&:hover,
+		&:focus {
+			color: darken($tertiary, 10%);
+
+		}
+	}
+
+	figure {
+		color: $text-muted;
+		font-size: 0.875rem;
+		text-align: center;
+
+		img {
+			border-radius: $border-radius;
+			margin-bottom: $spacer / 2;
+		}
+		
+	}
+
+	figcaption {
+		> * {
+			display: inline;
+		}
+
+		h4 {
+			font-size: inherit;
+			font-family: inherit;
+		}
+	}
+}
+
+.article-tag {
+	color: $text-muted;
+	background: rgba(#000, 0.1);
+	font-size: 0.75rem;
+	padding: $spacer / 4 $spacer / 2;
+	border-radius: $border-radius-sm;
+	margin-right: $spacer / 2;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		color: inherit;
+		background: rgba(#000, 0.15);
+	}
+}
+
+.article-card {
+	display: block;
+	background: #fafafa;
+	border-bottom-left-radius: $border-radius;
+	border-bottom-right-radius: $border-radius;
+	box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.12), 0 2px 3px rgba(0, 0, 0, 0.05);
+	transition: transform 0.3s, box-shadow 0.3s;
+	margin-bottom: $spacer;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		background: #fff;
+		transform: translateY(-4px);
+		box-shadow: 0 10px 24px -4px rgba(0, 0, 0, 0.12), 0 6px 12px rgba(0, 0, 0, 0.02);
+	}
+
+	.article-image {
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+}
+
+
+.article-card__content {
+	padding: $spacer;
+}

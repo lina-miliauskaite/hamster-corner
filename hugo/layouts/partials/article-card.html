@@ -1,0 +1,25 @@
+{{ if eq .Type "blogas" }}
+<div class="article-card" >
+	<a href="{{ .Permalink }}" class="article-image" style="background-image: url('/blogas/{{ .Params.teaser_image }}')">
+		<time datetime="{{ .Date.Format "2006-01-02"}}">
+			<span class="day">{{ .Date.Format "02"}}</span>
+			{{ index $.Site.Data.lt_months_short (printf "%d" .Date.Month) }}
+		</time>
+	</a>
+	<div class="article-card__content small">
+		<a class="d-block" href="{{ .Permalink }}">
+			<h6 class="m-0">{{ .Title }}</h6>
+		</a>
+		<p class="mt-1 mb-2 text-muted">{{ .Description}}</p>
+		
+		{{ partial "article-tags" . }}
+	</div>
+</div>
+{{ else }}
+<a href="{{ .Permalink }}" class="article-card" >
+	<div class="article-card__content small">
+		<h6 class="m-0">{{ .Title }}</h6>
+		<p class="mt-1 mb-0 text-muted">{{ .Description}}</p>
+	</div>
+</a>
+{{ end }}

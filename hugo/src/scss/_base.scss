@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+	flex-direction: column;
+	
+	> main {
+		margin-bottom: auto;
+		flex: 0 0 auto;
+	}
+
+    > footer {
+        
+    }
+}
+
+.container-sm {
+	max-width: 600px;
+}
+
+
+.link {
+    color: inherit;
+}
+
+.svg-icon {
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none !important;
+
+    svg {
+        vertical-align: inherit;
+    }
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family: $headings-font-family;
+}
