@@ -2,10 +2,12 @@
 <html>
   {{- partial "head.html" . -}}
   <body>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/lt_LT/sdk.js#xfbml=1&version=v3.3"></script>
+	
     {{- partial "header.html" .}}
     <main id="content" role="main">{{- block "main" . }}{{ end }}</main>
     {{- partial "footer.html" . -}}
-    
-    <script src="{{ .Site.BaseURL }}dist/index.js"></script>
+    <script src="{{ .Site.BaseURL }}{{ .Site.Data.webpack_assets.app.js }}"></script>
   </body>
 </html>

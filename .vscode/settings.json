@@ -3,5 +3,6 @@
 	"emmet.includeLanguages": {
 		"markdown": "html"
 	},
-	"emmet.triggerExpansionOnTab": true
+	"emmet.triggerExpansionOnTab": true,
+	"liveServer.settings.root": "/public"
 }

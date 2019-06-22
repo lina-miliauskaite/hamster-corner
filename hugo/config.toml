@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "https://hamster-corner.web.app/"
+publishDir = "../public"
 title = "Žiurkėnų kampelis"
 
 dataDir = "data"

@@ -1,0 +1,9 @@
+{
+  "app": {
+    "css": "/dist/css/app.770f0c52167f7930e3f4.css",
+    "js": "/dist/js/app.770f0c52167f7930e3f4.js"
+  },
+  "": {
+    "png": "/dist/assets/pattern.png"
+  }
+}
