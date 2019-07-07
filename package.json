@@ -6,6 +6,7 @@
   "scripts": {
     "deploy": "npm run build && firebase deploy",
     "start": "cd hugo && hugo server -D -F -v --disableFastRender",
+    "start:prod": "cd hugo && hugo server -v --disableFastRender",
     "build": "npm run build:design && npm run build:hugo",
     "build:design": "webpack",
     "build:hugo": "cd hugo && hugo"

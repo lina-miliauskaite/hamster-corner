@@ -2,8 +2,14 @@
 <html>
   {{- partial "head.html" . -}}
   <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNN2H76"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+
 	<div id="fb-root"></div>
 	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/lt_LT/sdk.js#xfbml=1&version=v3.3"></script>
+	
 	
     {{- partial "header.html" .}}
     <main id="content" role="main">{{- block "main" . }}{{ end }}</main>

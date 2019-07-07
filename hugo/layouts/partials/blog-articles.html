@@ -1,15 +1,15 @@
 {{ range .Pages }}
 	<article class="article">
 		<div class="row">
-			<div class="col-3">
-				<a class="article-image" href="{{ .Permalink }}" style="background-image: url('/blogas/{{ .Params.teaser_image }}')">
+			<div class="col-12 col-md-3">
+				<a class="article-image mb-3 mb-md-0" href="{{ .Permalink }}" style="background-image: url('/blogas/{{ .Params.teaser_image }}')">
 					<time datetime="{{ .Date.Format "2006-01-02"}}">
 						<span class="day">{{ .Date.Format "02"}}</span>
 						{{ index $.Site.Data.lt_months_short (printf "%d" .Date.Month) }}
 					</time>
 				</a>
 			</div>
-			<div class="col">
+			<div class="col-12 col-md">
 				<h3 class="h4 text-uppercase mb-1"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
 				{{ partial "article-tags" . }}
 

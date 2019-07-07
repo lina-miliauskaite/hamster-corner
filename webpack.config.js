@@ -30,7 +30,7 @@ module.exports = {
                 options: {
                     name: '[path][name].[ext]',
                     context: path.resolve(__dirname, "design/"),
-                    publicPath: '/dist',
+                    publicPath: 'dist',
                     useRelativePaths: true
                 }
             }
@@ -54,7 +54,7 @@ module.exports = {
     ]
   }, 
   output: {
-    publicPath: '/dist',
+    publicPath: 'dist',
     filename: `js/[name].[chunkhash].js`,
     path: path.resolve(__dirname, 'hugo/static/dist')
   }, 
