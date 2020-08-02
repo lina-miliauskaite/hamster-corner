@@ -4,7 +4,7 @@ description = "Pristatysiu ne vien kokių rūšių būna kraikas, ko reikėtų v
 date = "2019-06-15T12:00:00+03:00"
 publishDate = "2019-06-15T12:00:00+03:00"
 teaser_image = "img/popierinis-kraikas.jpg"
-kategorijos = ["Auginimo priemonės", "Patarimai"]
+kategorijos = ["Auginimo priemonės", "Patarimai", "Kraikas"]
 +++ 
 
 Kraikų, kaip ir narvelkių, gyvūnėlių parduotuvėse galima rasti pačių įvairiausių – medžio pjuvenų, medžio granulių, popierinių ar medvirninių. Jo pagrindinė paskirtis – sugerti žiurkėno šlapimą ir kitus nešvarumus. Naudojant kraiką nervelį valyti yra lengviau, o žiurkėnui su gerai parinktu pakratu yra ir patogiau gyventi. Nors Lietuvoje ir galima rinktis iš skirtingų rūšių kraiko, iš tiesų kokybišką produktą rasti sunku. Tad ko reikėtų pasisaugoti ir į ką reikėtų atkreipti dėmesį renkantis kraiką?

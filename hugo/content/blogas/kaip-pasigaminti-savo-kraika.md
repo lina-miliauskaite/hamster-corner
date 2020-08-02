@@ -3,7 +3,7 @@ title = "Kaip pasigaminti savo kraiką?"
 description = "PIRMOSIOS DIRBTUVĖS! Popierinio kraiko gamyba namuose."
 date = "2019-06-29T12:00:00+03:00" 
 teaser_image = "img/toilet-paper.jpg"
-kategorijos = ["Dirbtuvės"]
+kategorijos = ["Dirbtuvės, Kraikas"]
 +++ 
 
 Praėjusį kartą šnekėjau apie kai kurias Lietuvoje pasitaikančias kraikų rūšis. Šiandien aš pristatysiu vieną iš būdų, kaip galima pasigaminti popierinio kraiko namuose. 😊🐹
